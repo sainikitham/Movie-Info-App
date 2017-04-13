@@ -37,7 +37,7 @@ function getMovie()
      console.log(singlemve);
      details = `
          <div clas="row">
-           <div class="col-md-3" >
+           <div class="col-md-3">
              <img src="${singlemve.Poster}" style="height:360px;width:100;"></img>
            </div>
            <div class="col-md-9">
@@ -49,11 +49,11 @@ function getMovie()
              <li class="list-group-item"><b>Language : </b> ${singlemve.Language}</li>
              <li class="list-group-item"><b>Released : </b> ${singlemve.Released}</li>
              <li class="list-group-item"><b>Awards : </b> ${singlemve.Awards}</li>
+             <li class="list-group-item"><b>Rating : </b> ${singlemve.imdbRating}</li>
              </ul>
            </div>
          </div>`;
-      plot = `
-      <div clas="row">
+      plot = `<div clas="row">
           <div clas="well>
             <div class="col-md-10">
               <h1>Plot</h1>
