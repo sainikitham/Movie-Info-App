@@ -1,0 +1,11 @@
+.well{
+    white-space: nowrap;
+  overflow: hidden;
+  height:400px;
+}
+#movies{
+  width: 100%;
+}
+.col-md-3{
+  height: auto;
+}
